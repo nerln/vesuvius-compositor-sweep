@@ -1,0 +1,10 @@
+  tile-row 1/6 (16%)  0.2 chunks/s  1m41s  eta 8m25s  tile-row 2/6 (33%)  0.2 chunks/s  2m30s  eta 5m01s  tile-row 3/6 (50%)  0.3 chunks/s  3m15s  eta 3m15s  tile-row 4/6 (66%)  0.3 chunks/s  3m59s  eta 1m59s  tile-row 5/6 (83%)  0.3 chunks/s  4m42s  eta 0m56s  tile-row 6/6 (100%)  0.3 chunks/s  5m27s  eta 0m00s
+Remote zarr streaming: s3://vesuvius-challenge-open-data/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr/
+zarr dataset size for group 2 [19239 6628 6628 ]
+Source dtype: uint8
+chunk shape [128 128 128 ]
+Voxel size: 1.0 (no metadata found; override with --voxel-size)
+Flip normals: on
+Rendering: /Volumes/AppsAndFiles/dev/vesuvius/l1/mesh/fine.tifxyz -> /Volumes/AppsAndFiles/dev/vesuvius/l1/controllo_max.zarr (zarr)
+ds_level=2 ds_scale=0.25 sA=1 Pg=1 render_scale=0.25
+rendering 2304x768 at scale 1 crop [2304×768 from (1728,4800)]

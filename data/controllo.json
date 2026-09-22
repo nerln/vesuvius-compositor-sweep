@@ -1,0 +1,29 @@
+{
+ "render": "/Volumes/AppsAndFiles/dev/vesuvius/l1/controllo_max.zarr",
+ "ckpt": "/Volumes/AppsAndFiles/dev/vesuvius/l1/checkpoints/ink_9um/hybrid_3d2d-seed43/step-060000.pth",
+ "starts": [
+  40
+ ],
+ "depth": 21,
+ "n_val_px": 177635,
+ "rows": [
+  {
+   "name": "ctl_d40",
+   "start": 40,
+   "layers": [
+    40,
+    61
+   ],
+   "auc_forward": 0.8966874480247498,
+   "auc_trained_forward": 0.9932640194892883,
+   "share_forward": 0.1191558837890625,
+   "share_on_ink_forward": 0.7221059293155486,
+   "share_on_bg_forward": 0.09368660793403197,
+   "auc_reverse": 0.5165225267410278,
+   "auc_trained_reverse": 0.5081993341445923,
+   "share_reverse": 0.026511863425925927,
+   "share_on_ink_reverse": 0.017622432090351477,
+   "share_on_bg_reverse": 0.03513705501973621
+  }
+ ]
+}
