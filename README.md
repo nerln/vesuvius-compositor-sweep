@@ -5,6 +5,8 @@ PHerc0139 segment `20250108000004-w029_2025010827`, scored with kadenpool's own 
 ([scroll-lineup](https://github.com/kadenpool/scroll-lineup), `downstream/`), against the
 Challenge's published ink labels. Context: [ScrollPrize/villa#1845](https://github.com/ScrollPrize/villa/issues/1845).
 
+No model was trained or fine-tuned: the `ink_9um` checkpoint is used exactly as released at [huggingface.co/scrollprize/ink_9um](https://huggingface.co/scrollprize/ink_9um) (hash in `HASHES.md`), and every render, score and log produced is in this repository.
+
 ## The result
 
 | arm | AUC forward | vs control | labelled ink found | background called ink | AUC reverse |
